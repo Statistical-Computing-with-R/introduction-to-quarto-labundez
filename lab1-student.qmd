@@ -64,6 +64,10 @@ section (e.g., Tooth Growth Dataset).
 ```{r}
 #| echo: true
 #| label: creating-a-plot
+#| layout-ncol: 2
+#| fig-cap: 
+#|   - "Length of Teeth by Supplement Delivery Methods"
+#|   - "Length of Teeth by Three Different Dosages Uses"
 
 library(tidyverse)
 
