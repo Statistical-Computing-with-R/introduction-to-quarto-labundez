@@ -68,6 +68,7 @@ section (e.g., Tooth Growth Dataset).
 #| fig-cap: 
 #|   - "Length of Teeth by Supplement Delivery Methods"
 #|   - "Length of Teeth by Three Different Dosages Uses"
+#| fig-align: center
 
 library(tidyverse)
 
