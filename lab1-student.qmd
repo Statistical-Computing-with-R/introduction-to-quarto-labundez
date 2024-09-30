@@ -8,6 +8,10 @@ embed-resources: true
 execute:
   echo: true
   error: true
+code-fold: true
+toc: true
+toc-depth: 4
+theme: journal
 ---
 
 # Part Two: Exploring Quarto Documents
