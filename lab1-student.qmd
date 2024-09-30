@@ -103,3 +103,6 @@ t.test(len ~ supp, data = ToothGrowth, var.equal = FALSE, alternative = "two.sid
 
 ```
 
+*1. Because the p-value is greater than 0.05, we fail to reject the null hypothesis. There is no significant difference between treatment mean tooth length between the OJ supplement delivery method and the VC supplement delivery method*
+
+*2. We are 95% confident that the true difference in means between the population of tooth lengths for the OJ supplement type and VC supplement type is between -0.171 and 7.571. Since 0 is within this interval, we cannot conclude that there is significant difference between treatment mean tooth length between the OJ supplement delivery method and the VC supplement delivery method*
