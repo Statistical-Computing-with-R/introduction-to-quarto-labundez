@@ -99,6 +99,7 @@ should be **center aligned**.
 code-chunk option).
 
 ```{r}
+t.test(len ~ supp, data = ToothGrowth, var.equal = FALSE, alternative = "two.sided")
 
 ```
 
