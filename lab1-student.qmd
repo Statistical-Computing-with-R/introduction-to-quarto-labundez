@@ -98,10 +98,15 @@ should be **center aligned**.
 **Question 9** -- Specify a **figure caption** for the boxplots (using a
 code-chunk option).
 
+## T-Test: Comparing Tooth Lengths Between Two Supplement Methods
+
+**Conducting t-test** 
+
 ```{r}
 t.test(len ~ supp, data = ToothGrowth, var.equal = FALSE, alternative = "two.sided")
 
 ```
+**Conclusion**
 
 *1. Because the p-value is greater than 0.05, we fail to reject the null hypothesis. There is no significant difference between treatment mean tooth length between the OJ supplement delivery method and the VC supplement delivery method*
 

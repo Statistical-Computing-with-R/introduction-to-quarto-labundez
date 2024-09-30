@@ -3191,6 +3191,10 @@ vertical-align: -.125em;
 <p><strong>Question 7</strong> – Read over the <a href="https://quarto.org/docs/authoring/figures.html#computations">Quarto documentation on figure options</a> and add an option (<code>#|</code>) to the above code chunk to make the figures print side-by-side (i.e., in one row) in the rendered HTML file.</p>
 <p><strong>Question 8</strong> – Specify in the code chunk options that these boxplots should be <strong>center aligned</strong>.</p>
 <p><strong>Question 9</strong> – Specify a <strong>figure caption</strong> for the boxplots (using a code-chunk option).</p>
+</section>
+<section id="t-test-comparing-tooth-lengths-between-two-supplement-methods" class="level2">
+<h2 class="anchored" data-anchor-id="t-test-comparing-tooth-lengths-between-two-supplement-methods">T-Test: Comparing Tooth Lengths Between Two Supplement Methods</h2>
+<p><strong>Conducting t-test</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(len <span class="sc">~</span> supp, <span class="at">data =</span> ToothGrowth, <span class="at">var.equal =</span> <span class="cn">FALSE</span>, <span class="at">alternative =</span> <span class="st">&quot;two.sided&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -3207,6 +3211,7 @@ mean in group OJ mean in group VC
         20.66333         16.96333 </code></pre>
 </div>
 </div>
+<p><strong>Conclusion</strong></p>
 <p><em>1. Because the p-value is greater than 0.05, we fail to reject the null hypothesis. There is no significant difference between treatment mean tooth length between the OJ supplement delivery method and the VC supplement delivery method</em></p>
 <p><em>2. We are 95% confident that the true difference in means between the population of tooth lengths for the OJ supplement type and VC supplement type is between -0.171 and 7.571. Since 0 is within this interval, we cannot conclude that there is significant difference between treatment mean tooth length between the OJ supplement delivery method and the VC supplement delivery method</em></p>
 </section>
